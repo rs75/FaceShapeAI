@@ -4,7 +4,7 @@ FaceShapeAI tells you your **face shape** from a photo (e.g., Oval, Round, Squar
 
 ### Try it online
 
-You can use the working app here: `https://attractivenesstest.com/face_shape`
+You can use the [working app here](https://attractivenesstest.com/face_shape).
 
 ![Example](example.webp)
 
