@@ -18,3 +18,7 @@ You can use the [working app here](https://attractivenesstest.com/face_shape).
 - Run:
   - Put a clear, front-facing photo in this folder (or use the included `sample_image.jpg`)
   - `python use_model.py your_photo.jpg`
+
+### How it Works
+
+FaceShapeAI scans your photo to locate a face and map a detailed set of facial points (around the eyes, nose, mouth, jaw, etc.). It then “straightens” the face a bit (so small head tilts don’t throw things off) and scales things to be more consistent across different photos. Finally, it uses the saved model in this repo to predict the most likely face shape and shows confidence scores for each option.
